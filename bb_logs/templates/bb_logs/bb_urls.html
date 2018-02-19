@@ -1,0 +1,14 @@
+{% extends 'bb_logs/base.html' %}
+
+{% block content %}
+<h1>BOOM BEACH URLS</h1>
+<ul>
+ {% for url in bb_urls %}
+  <li>{{ url }} </li>
+ {% empty %}
+  <li> No URLs </li>
+ {% endfor %}
+</ul>
+{% endblock content %}
+
+	{% block tail%}	{% endblock tail %}

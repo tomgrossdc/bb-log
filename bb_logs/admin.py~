@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.contrib import admin
+
+from bb_logs.models import Operation, Base, Url, Operation_dday
+
+
+# Register your models here.
+admin.site.register(Bb_operation)
+admin.site.register(Bb_base)
+admin.site.register(Bb_url)
+admin.site.register(Bb_operation_dday)

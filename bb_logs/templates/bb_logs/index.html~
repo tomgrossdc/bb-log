@@ -1,0 +1,7 @@
+{% extends "bb_logs/base.html" %}
+{% block content %}
+<H>Boom Beach Logs</H>
+
+<p>The No Feet Task Force objectives and information about the battles will be presented here.  Members of our Task Force will be able to log in to see TF specific information. </p>
+{% endblock content %}
+
